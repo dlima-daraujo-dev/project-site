@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: face;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+
+@font-face {
+    font-family: Bebas Neue;
+    src: url(Fontfabric-BebasNeue/Bold.ttf);
+}
+
+/*******************************************************************************/
+/*******************************************************************************/
+body {
+    margin: 0px;
+    background-color: rgb(197, 203, 202);
+}
+    /*-------------------------------------------------------------------------*/
+    header {
+        background-image: linear-gradient(#8dff8d,#01a201,#003c00);
+        padding: 10px;
+    }
+
+        h1 {
+            font-family: Bebas Neue, sans-serif;
+            text-align: center;
+        }
+
+        header > p {
+            text-align: center;
+        }
+
+        nav > a {
+            text-decoration: none;
+            margin-right: 25px;
+            color: #99be99;
+            padding: 7px;
+            border-radius: 5px;
+            transition-duration: 1s;
+        }
+
+            nav > a:hover {
+                background-color: #01a201;
+                color: #003c00;
+            }
+    /*-------------------------------------------------------------------------*/
+
+
+
+    /*-------------------------------------------------------------------------*/
+    section {
+        background-color: white;
+        max-width: 900px;
+        margin: auto;
+        padding: 5px;
+        box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.479);
+        border-radius: 0px 0px 10px 10px;
+    }
+
+        article {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: auto;
+        }
+
+            h2 {
+                padding: 5px;
+                font-family: face;
+                text-align: center;
+            }
+
+            picture > img {
+                display: block;
+                margin: auto;
+                max-height: 300px;
+                max-width: 100%;
+            }
+
+            img#Bugdroid {
+                display: block;
+                margin: auto;
+                height: 150px;
+            }
+
+            article > p {
+                text-align: justify;
+                text-indent: 20px;
+                padding: 5px;
+            }
+
+            h3 {
+                border-radius: 10px;
+                padding: 5px;
+                font-family: face;
+                background-image: linear-gradient(90deg, rgb(0, 255, 0), rgb(159, 248, 159), rgb(246, 248, 246));
+            }
+
+            p > a {
+                text-decoration: none;
+                font-style: italic;
+                color: #003c00;
+                background-image: linear-gradient(90deg, rgb(0, 255, 0), rgb(159, 248, 159), rgb(246, 248, 246));
+                padding: 1px;
+                border-radius: 3px;
+            }
+
+                p > a:hover {
+                background-image: linear-gradient(90deg, rgb(255, 180, 180), rgb(255, 219, 219), rgb(252, 252, 252));
+                }
+
+                p > a::after {
+                    content: "\00a0\1F4CE";
+                }
+
+                strong {
+                    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.441);
+                    color: #003c00;
+                }
+        
+                .boxVideo {
+                    position: relative;
+                    background-color: #003c00;
+                    padding-top: 25px;
+                    padding-bottom: 50%;
+                }
+
+                .boxVideo > iframe {
+                    position: absolute;
+                    top: 2.5%;
+                    right: 5%;
+                    width: 90%;
+                    height: 95%;
+                }
+
+        h4 {
+            background-color: #00a400;
+            padding: 10px;
+            border-radius: 10px 10px 0px 0px;
+            margin: 5px 0px 0px 0px;
+        }
+
+        article#extra {
+            background-color:#a4fca4;
+            border-radius: 10px;
+        }
+
+        ul {
+            columns: 2;
+            list-style-type: '\2714\00a0\00a0';
+            list-style-position: inside;
+        }
+        
+        p#fim {
+            text-align: justify;
+            text-indent: 20px;
+            padding: 5px;
+        }
+
+        footer {
+            background-color: #003c00;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 5px 1px 1px 1px;
+        }
+
+    /*-------------------------------------------------------------------------*/
+
+
+/*******************************************************************************/
+/*******************************************************************************/
